@@ -10,7 +10,15 @@
     <div class="typing">
       <h1>GAME PONG</h1>
     </div>
+    <p onclick="movePage()">Mulai Game</p>
 
-    <a href="play.html"><p>Mulai Game</p></a>
+    <script>
+      function movePage() {
+        setTimeout(() => {
+          window.location.href =
+            "https://taniaanss.github.io/gamePong.github.io/play.html";
+        }, 3000);
+      }
+    </script>
   </body>
 </html>

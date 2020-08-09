@@ -195,11 +195,6 @@ class Pong {
       console.log(history);
       putHistory(history);
       renderHistory();
-      setTimeout(() => {
-        // --- TEMPLATE LITERAL ---
-        alert(`Terimakasih telah bermain ${nama} !`);
-        this.reset();
-      }, 20000);
     }
   }
 
